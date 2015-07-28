@@ -1,0 +1,30 @@
+{
+  "name": "aardvark",
+  "version": "1.0.0",
+  "description": "a quiz game to help learn 2 digit abbreviations of countries around the world ",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/**/*.js | tnyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rorysedgwick/aardvark.git"
+  },
+  "author": "rorysedgwick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rorysedgwick/aardvark/issues"
+  },
+  "homepage": "https://github.com/rorysedgwick/aardvark",
+  "dependencies": {
+    "hapi": "^8.8.0"
+  },
+  "devDependencies": {
+    "qunitjs": "^1.18.0",
+    "tap-nyan": "0.0.2",
+    "tape": "^4.0.1"
+  }
+}

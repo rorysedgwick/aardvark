@@ -1,6 +1,6 @@
 # aardvark
 
-![aardvark text](https://github.com/rorysedgwick/aardvark/public/assets/img/aardvark.png "aardvark")
+![aardvark](https://github.com/rorysedgwick/aardvark/blob/master/public/assets/img/aardvark.png "aardvark")
 
 #### learning doesn't always have to feel like such aardvark
 

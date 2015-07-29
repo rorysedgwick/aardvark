@@ -3,14 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.18.0.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon"/>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
     <title>aardvark</title>
   </head>
 
   <body>
 
+    <h1 id="title">Around The World in 263 ISO 3166-1 alpha-2 codes</h1>
+    <div id="description">
+      <span>This is a simple quiz game designed to aid the learning of the 2 digit ISO country code abbreviations. For more information on them and a full listing see <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">this Wikipedia article</a>.</span>
+      <br>
+      <span>Click the start button to select your game type.</span>
+    </div>
+
+    <form id="game-type-selector">
+      <input type="radio" name="game-selector" class="game-selector" value="Infinite Play">Infinite Play
+      <input type="radio" name="game-selector" class="game-selector" value="Single Round">Single Round
+    </form>
+
+    <br>
     <div id="qunit"></div>
     <div id="qunit-fixture"></div>
 

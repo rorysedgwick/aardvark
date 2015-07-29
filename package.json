@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node test/**/*.js | tnyan"
+    "test": "node test/**/*.js | tap-nyan"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "qunitjs": "^1.18.0",
+    "tap-dot": "^1.0.0",
     "tap-nyan": "0.0.2",
     "tape": "^4.0.1"
   }

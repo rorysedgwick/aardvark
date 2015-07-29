@@ -1,9 +1,11 @@
 # aardvark
 
+![aardvark text](https://github.com/rorysedgwick/aardvark/public/assets/img/aarvark.png "aardvark")
+
 #### learning doesn't always have to feel like such aardvark
 
 ### Why?
-For various reasons, learning the [2 digit abbreviations](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) for lots of countries off by heart is going to make me more efficient at my job. Therefore I decided to build a mini quiz game that can help me memorise them, and practice Javascript at the same time.
+For various mysterious reasons, learning the [2 digit abbreviations](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) for lots of countries off by heart is going to make me more efficient at my job. Therefore I decided to build a mini quiz game that can help me memorise them, and practice Javascript at the same time.
 
 *I don't want to know if this game already exists on sporcle.com or in a thousand other places*
 
@@ -25,4 +27,4 @@ Stretch goals:
 - [] The high scores of all players are displayed to other users
 
 ### How?
-The backend will be built using Node.js and probably Hapi. The test suite is still unconfirmed, as is the potential datastore.
+The back-end will be built using Node.js and Hapi. Testing will be done using Tape on the back-end and Qunit on the front to practice using different test suites.

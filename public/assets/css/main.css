@@ -1,0 +1,16 @@
+body {
+  font-family: Arial;
+}
+
+#current-country {
+  display: inline-block;
+  text-align: center;
+  border: 2px solid lightgrey;
+  width: 200px;
+  height: 30px;
+}
+
+#game-controls {
+  display: inline-block;
+}
+

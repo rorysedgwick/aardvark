@@ -7,7 +7,11 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node test/**/*.js | tap-nyan"
+    "build": "npm run browserify && npm run watch",
+    "browserify": "browserify src/js/main.js -o public/assets/js/bundle.js",
+    "start": "nodemon app.js",
+    "test": "node test/**/*.js | tap-nyan",
+    "watch": "watchify src/js/main.js -o public/assets/js/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -23,9 +27,11 @@
     "hapi": "^8.8.0"
   },
   "devDependencies": {
+    "browserify": "^11.0.1",
     "qunitjs": "^1.18.0",
     "tap-dot": "^1.0.0",
     "tap-nyan": "0.0.2",
-    "tape": "^4.0.1"
+    "tape": "^4.0.1",
+    "watchify": "^3.3.1"
   }
 }

@@ -7,7 +7,7 @@
 ### Why?
 For various mysterious reasons, learning the [2 digit abbreviations](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) for lots of countries off by heart is going to make me more efficient at my job. Therefore I decided to build a mini quiz game that can help me memorise them, and practice Javascript at the same time.
 
-*I don't want to know if this game already exists on sporcle.com or in a thousand other places*
+*I don't want to know if this game already exists on sporcle.com or in a thousand other places so if you know of one keep it to yourself*
 
 ### What?
 The aim is to have a simple text input field that checks user input against the currently displayed ISO country abbreviation. If a correct answer is entered, the user is awarded a point and a new code is randomly selected from the list and displayed. The user will have the option to select either codes from the whole world, or a randomly chosen subset.

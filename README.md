@@ -13,7 +13,7 @@ For various mysterious reasons, learning the [2 digit abbreviations](https://en.
 The aim is to have a simple text input field that checks user input against the currently displayed ISO country abbreviation. If a correct answer is entered, the user is awarded a point and a new code is randomly selected from the list and displayed. The user will have the option to select either codes from the whole world, or a randomly chosen subset.
 
 Basic functionality:
-- [ ] The user is displayed an ISO 3166 2 digit country code
+- [ ] The user is displayed a 2 digit country code
 - [ ] The user is started with a point score of 0
 - [ ] The user can enter a country name into a text input field
 - [ ] The inputted text is checked against the country name

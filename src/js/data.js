@@ -1,4 +1,4 @@
-var data =  [
+var data = [
   {
     "country": "afghanistan",
     "code": "af"
@@ -996,3 +996,4 @@ var data =  [
     "code": "zw"
   }
 ]
+ module.exports = data;

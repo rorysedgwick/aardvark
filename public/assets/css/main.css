@@ -7,10 +7,20 @@ body {
   text-align: center;
   border: 2px solid lightgrey;
   width: 200px;
-  height: 30px;
+  height: 20px;
 }
 
 #game-controls {
   display: inline-block;
+}
+
+#score {
+  display: inline-block;
+  text-align: center;
+  margin-left: 25px;
+  font-size: 20px;
+  border: 2px solid lightgrey;
+  width: 150px;
+  height: 20px;
 }
 

@@ -996,4 +996,3 @@ var data = [
     "code": "zw"
   }
 ]
- module.exports = data;

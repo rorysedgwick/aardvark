@@ -9,16 +9,16 @@ test("The QUnit-fixture frame should exist", function() {
 });
 
 test("The title <h1> should exist", function() {
-  ok(document.getElementById("title"), "the title <h1> exists");
+  ok(parent.document.getElementById("title"), "the title <h1> exists");
 });
 
 test("The description <div> should exist", function() {
-  ok(document.getElementById("description"), "the description <div> exists");
+  ok(parent.document.getElementById("description"), "the description <div> exists");
 });
 
 test("There should be a form element with four child elements", function() {
 
-  var gameForm = document.getElementById("game-controls");
+  var gameForm = parent.document.getElementById("game-controls");
 
   ok(gameForm, "the form exists");
   equal(gameForm.getElementsByTagName("input").length, 4, "the form contains four input elements");
@@ -26,7 +26,7 @@ test("There should be a form element with four child elements", function() {
 
 test("There should be two game-selector radio buttons", function() {
 
-  var buttons = document.getElementsByClassName("game-selector");
+  var buttons = parent.document.getElementsByClassName("game-selector");
   var buttonOne = buttons[0];
   var buttonTwo = buttons[1];
 
@@ -38,13 +38,13 @@ test("There should be two game-selector radio buttons", function() {
 });
 
 test("There should be a <text input> element to fill in answers", function() {
-  ok(document.getElementById("submission-box"), "the submission box exists");
+  ok(parent.document.getElementById("submission-box"), "the submission box exists");
 });
 
 test("There should be a submit button to enter an answer", function() {
-  ok(document.getElementById("submit-answer"));
+  ok(parent.document.getElementById("submit-answer"));
 });
 
 test("There should be a <div> to display the current country being matched", function() {
-  ok(document.getElementById("current-country"), "the div exists");
+  ok(parent.document.getElementById("current-country"), "the div exists");
 });

@@ -3,7 +3,7 @@ test("The dataset should be stored in an array", function() {
 });
 
 test("The country-code div displays the text from an element in the countryCodes array", function() {
-  var currentCountry = document.getElementById("current-country");
+  var currentCountry = parent.document.getElementById("current-country");
 
   equal(currentCountry.innerText, data[selected].code, "a country code is displayed in the div");
 });

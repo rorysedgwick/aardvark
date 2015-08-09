@@ -48,3 +48,7 @@ test("There should be a submit button to enter an answer", function() {
 test("There should be a <div> to display the current country being matched", function() {
   ok(parent.document.getElementById("current-country"), "the div exists");
 });
+
+test("There should be a div displaying the current score of the user", function() {
+  ok(parent.document.getElementById("score"), "the score display exists");
+});

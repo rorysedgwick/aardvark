@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../public/assets/css/main.css">
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="../public/assets/img/favicon.ico" type="image/x-icon"/>
 
     <title>aardvark</title>
   </head>
@@ -21,17 +21,18 @@
       <input type="radio" name="game-selector" class="game-selector" value="Infinite Play">Infinite Play
       <input type="radio" name="game-selector" class="game-selector" value="Single Round">Single Round
       <br>
-      <input type="text" onkeyup="matchChecker()" id="submission-box" placeholder="Your answer here">
+      <input type="text" onkeyup="T.matchChecker()" id="submission-box" placeholder="Your answer here">
       <input type="submit" id="submit-answer">
     </form>
 
     <div id="current-country"></div>
+    <div id="score"></div>
 
-    <script src="../src/js/main.js"></script>
-
-
-    <br>
     <iframe frameborder="0" width="100%" height="500px" src="../../test/front/test.html"></iframe>
+    <br>
+
+    <script src="../../src/js/data.js"></script>
+    <script src="../src/js/main.js"></script>
 
   </body>
 </html>
